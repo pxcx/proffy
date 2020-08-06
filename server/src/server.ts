@@ -1,14 +1,15 @@
 import express from 'express';
+import cors from 'cors';
+import routes from './routes';
 
+// start app
 const app = express();
 
-app.get('/users', (request, response) => {
-    const users = [
-        { name: 'Paulo', age: 31 },
-        { name: 'Diego', age: 25 },
-        { name: 'Vini', age: 21 }
-    ]
-    return response.json(users);
-});
-
+// enable CORS
+app.use(cors());
+// enable JSON support
+app.use(express.json());
+// adding routes
+app.use(routes);
+// set port
 app.listen(3333)
