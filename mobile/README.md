@@ -2,5 +2,5 @@
 Project created for Rocketset NLW#2
 
 ### notes
-$ expo init mobile
-$ expo start
+- $ expo init mobile
+- $ expo start
