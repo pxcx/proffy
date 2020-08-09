@@ -1,4 +1,8 @@
-# proffy
+<h1 align="center">
+    <img alt="Proffy" src=".github/logo.svg" height="100px" />
+</h1>
+
+# About
 Project created for Rocketset NLW#2
 
 ## Environment
