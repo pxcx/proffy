@@ -2,7 +2,6 @@
     <img alt="Proffy" src=".github/logo.png" height="100px" />
 </h1>
 
-# About
 Project created for Rocketset NLW#2
 
 ## Environment
